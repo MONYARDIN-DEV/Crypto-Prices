@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="container">
       <div className="row">
-        <h1 className='text-center mt-4'>Precios de las criptomonedas según la capitalización de mercado</h1>
+        <h1 className='text-center mt-4'>Precios de las criptomonedas según la capitalización de mercado </h1>
         <hr/>
         <input type="text" placeholder='Search a Coin' className='form-control bg-dark text-light text-center border-0 mt-4 text-center' onChange={e=> setSearch(e.target.value)}/>
         <Clock/>
